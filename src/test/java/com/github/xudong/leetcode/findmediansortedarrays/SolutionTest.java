@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class SolutionTest {
     @Test
-    public void testFindMedianSortedArrays_OddNumsElm() throws Exception {
+    public void testFindMedianSortedArrays_oddNumsElm() throws Exception {
         int[] nums1 = {1, 3};
         int[] nums2 = {2};
 
@@ -19,7 +19,7 @@ public class SolutionTest {
 
 
     @Test
-    public void testFindMedianSortedArrays_venNumsElm() throws Exception {
+    public void testFindMedianSortedArrays_evenNumsElm() throws Exception {
         int[] nums1 = {1, 2};
         int[] nums2 = {3,4};
 
